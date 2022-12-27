@@ -1,0 +1,49 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Nothing is showing up for me when I style this table */
+
+/* table, th, td, { 
+    border: 3px solid;
+    text-align: center;
+}*/
+
+table {
+    border: 2px solid;
+    text-align: center;
+}
+
+th {
+    border: 2px solid;
+    text-align: center;
+}
+
+td {
+    border: 2px solid;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    height: 30px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: purple*;
+}
+
+/* table { 
+    border: 2px solid; 
+    align-content: center;
+    border-radius: 2;
+} */
+
