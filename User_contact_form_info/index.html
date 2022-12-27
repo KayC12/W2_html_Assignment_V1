@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/Style.css" />
+    <title>User Contact Form Info</title>
+  </head>
+  <body>
+    <form action="#">
+      <h2>Contact Us</h2>
+      <hr />
+      <div>
+        <label for="name">Name</label>
+        <input type="text" placeholder="Type your name here" id="name" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email here"
+          id="email"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="prioritySelect">How can I help?</label>
+        <select name="priority" id="prioritySelect">
+          <option value="Order Number">Order Number</option>
+          <option value="Tracking Info">Tracking Info</option>
+          <option value="Other Inquiries">Other Inquires</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="message">Message</label>
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Your message"
+        ></textarea>
+      </div>
+      <br />
+      <br />
+      <div>
+        <input type="submit" value="Submit" name="submit" id="submit" />
+      </div>
+    </form>
+  </body>
+</html>
+
+<!-- text, email and message for input text -->
